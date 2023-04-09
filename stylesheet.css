@@ -22,7 +22,6 @@ header{
 
 .h-title{
   padding: 20px 16px;
-  width: 1200px;
 }
 
 nav{
@@ -88,12 +87,29 @@ main{
   text-align: center;
 }
 
+.pagination {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.pagination p {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  color: #fff;
+  background-color: #acabab;
+  border-radius: 3px;
+  line-height: 30px;
+}
+
 .sidebar{
   width: 30%;
 }
 
 .profile{
   text-align: center;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -144,6 +160,74 @@ li{
   text-align: left;
 }
 
-footer{
+.f-content{
   display: flex;
+  justify-content: space-between;
+}
+
+.item{
+  width: 30%;
+}
+
+.f-title{
+  margin-bottom: 30px;
+}
+
+.about-item{
+  padding-top: 30px;
+}
+
+.about-item li{
+  padding-top: 5px;
+}
+
+.menu{
+  border-bottom: solid 1px black;
+}
+
+.menu li{
+  border-top: solid 1px black;
+  padding: 10px;
+  text-align: left;
+}
+
+.twitter{
+  max-width: 100%;
+  margin-bottom: 0;
+}
+
+.footer-text{
+  text-align: center;
+}
+
+@media screen and (max-width: 768px){
+  .main-visual{
+    display: block;
+    width: 100%;
+  }
+  
+  .main-visual-content{
+    width: 100%;
+  }
+  
+  .container{
+    display: block;
+    width: 100%;
+  }
+  
+  main{
+    width: 100%;
+  }
+  
+  .sidebar{
+    width: 100%;
+  }
+  
+  .f-content{
+    display: block;
+  }
+  
+  .item{
+    width: 100%;
+  }
 }
